@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <h1>Github flow</h1>
+      <p>Github och github flow är ett sätt för flera utvecklare att sammarbeta på ett och samma projekt. <br><br>
+        Github flow går till så att du börjar med att göra en egen branch, för att du inte ska göra ändringar i själva main-branchen utan i en egen kopia av main-versionen. När du gjort dina ändringar laddas dessa upp tillsammans med en kommentar om vad det är som har uppdaterats. Detta kallas föratt göra en commit. När en commit är skapad är det dags för de andra att granska koden, detta görs genom en pull request här disskuteras de ändringar som gjorts och när man till slut kommer överens om att de ändringar som gjorts är bra godkänner man pull-requesten. De ändringar som då gjorts kan då provas innan man slutligen mergar sin branch med main-branchen och flödet är komplett och man har nu en ny uppdaterad main-branch.
+        <br><br>
+        Referens: <a href="https://www.w3schools.com/git/git_github_flow.asp?remote=github">w3schools</a> 
+        
+    </p>
+    </div>
+    <div>
+      <h1>Flexbox</h1>
+      <p>
+        Flexbox är en modell för att på ett enkelt och dynamiskt sätt
+        strukturera upp sin webbsida. <br /><br />Man delar in sidan i olika
+        containers som i sin tur kan innehålla ett eller flera element. Man kan
+        sedan justera elementen i varje container längst två axlar, en
+        huvud-axel och en kors-axel, dessa går 90grader mot varandra. När man
+        väljer sin huvudaxel gör man det genom att säga att elementen ska vara
+        orienterade i en rad eller i en column. Man kan också justera hur
+        elementen ska vara orienterade relativt kors-axeln. <br />
+        <br />
+        Därtill kan man välja hur elementen ska vara spridda i utrymmet som de
+        har till förfogande. De kan t.ex. vara centrerade mot mitten eller jämnt
+        spridda över hela området. Går du ytterliggare ett steg kan du justera
+        de olika elementens storlek relativt varandra där du kan låta vissa
+        element växa och andra krympa.<br /><br />
+        En annan huvudfunktion med flexbox är att element kan "wrappa" det
+        innebär att om t.ex. flera element i rad blir för långa för att få plats
+        på sidans bredd så hoppar det första elementet som inte får plats ner
+        till nästa rad och de fortsätter därifrån. Detta gör det enklare att
+        göra sidan responsiv och fungerande i olika "devices" med olika
+        skärmstorlekar.<br><br> Referens:<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Developer.Mozilla.org</a>
+      </p>
+    </div>
+    <div>
+      <h1>DOM (Document Object Model)</h1>
+      <p>
+        DOM innehåller alla html-kodens delar och det är genom denna som javascript interagerar och manipulerar webbsidan.. <br><img src="/table.png"><br>
+        Detta görs genom att på olika sätt välja ut vilket eller vilka element man vill komma åt. Där finns ett antal olika metoder att välja ut element. T.ex. med hjälp av id (getElementById) eller genom vilken slags element det är querySelectorAll('div') med fler. På detta sätt kan man även skapa element createElement('div'). Eller på olika sätt modifiera redan existerande element genom att ändra text, värden eller attribut t.ex. . Det går också att lägga till händelser när man till exempel med hjälp av innerTEXT lägger till eller ändrar texten i ett element. trycker på en knapp för musen över ett visst element osv genom bland annat addEventListener(). <br><br>
+        Referens: <a href="https://www.freecodecamp.org/news/dom-explained-everything-you-need-to-know-about-the-document-object-model/">Freecodecamp</a>
+      </p>
+    </div>
+    <div>
+      <h1>Fin kod</h1>
+      <p>
+        Att skriva fin kod är viktigt och en konstform i sig. Det gör det lättare för både dig själv och andra att läsa, underhålla, eller uppdatera koden. Koden kan vara fin
+        på flera olika sätt t.ex. 
+        <ul>
+            <li>Klokt namngiven</li>
+            <li>Ingen onödig repetition</li>
+            <li>Lagom stora delar</li>
+            <li>Kommenterad</li>
+            <li>Följer konventioner</li>
+            <li>Rätt lösningar</li>
+        </ul>
+        Genom att namnge sina funktioner, classer, element osv. på ett sätt som gör det lätt för en själv och andra att förstå vad det är till för underlättar väldigt mycket för läsbarheten och förståelsen. Jämför att kalla en funktion för <strong>s2</strong> eller <strong>sumOfTwoIntegers</strong>, det är väldigt mycket tydligare vad den andra gör. Också viktigt att namnge konstanter/variabler även om de bara används en eller ett fåtal gånger, t.ex. om en funktion får värdet 3600 är det svårare att förstå än constanten secondsInAnHour<br><br>
+        Ta bort onödiga repetitioner genom att t.ex. skapa en funktion som gör steg som flera gånger upprepas i din kod, eller en class i din css-fil som appliceras på flera olika element.<br><br> Genom att dela upp koden i mindre mer lättöverskådliga delar blir det också lättare att sätta sig in i och förstå. Om du skriver en funktion som gör allting kan det lätt bli oöverskådligt och lätt att göra fel.<br><br>
+        Man ska så långt det går försöka undvika att kommentera sin kod genom att följa de andra punkterna så väl att det inte behövs. Men det finns fall där en väl uttänkt kommentar underlättar väldigt mycket, den måste dock då uppdateras så fort koden förändras, vilket brukar vara svårt att få det att göras i praktiken. Därför bör kommentarer undvikas i den mån det är möjligt.
+        <br><br>
+        Följa de konventioner som finns antingen inom det projekt du jobbar med för tillfället eller branchen i stort. T.ex. använder många större projekt bokstavsordning i sin css-fil.
+        <br><br>
+        Genom att välja sig av rätt lösningar blir koden snyggare och mer lättläst. Om det finns ett antal olika alternativ är en switch-lösning mycket överskådligare än ett antal nästlade if-satser t.ex.
+        <br><br>
+        Referenser: <a href="https://hackernoon.com/how-to-make-your-code-clean-and-beautiful-5ff7aee03be6">Hackernoon</a><a href="https://dzone.com/articles/15-ways-to-write-beautiful-code"> Dzone</a>
+        <a href="https://www.spoton.se/inspiration/blogg-om-digitala-affaerer-e-handel-och-webben/posts/2018/february/sju-tips-paa-att-koda-saa-andra-foerstaar/">Spoton</a>
+
+      </p>
+    </div>
+    <div>
+      <h1>Ramverk</h1>
+      <p>Ramverk gör det snabbare och lättare att koda genom att de är bibliotek uppbyggda av redan färdiga koddelar som du sedan kan använda dig av. Det gör det snabbt och lätt att komma igång istället för att du själv ska göra allting från grunden. På grund av detta används ramverk i stor utsträckning idag. Det finns dock också nackdelar. Svårigheterna med ramverk är att det krävs en del att sätta sig in även i dem, med tiden växer de ofta och det krävs kunskap i att välja rätt ramverk för sin uppgift och att veta vilka funktioner som finns i ramverket och hur man ska använda dessa på bästa sätt. De kan också göra sidan långsammare genom att de innehåller mer än vad som egentligen behövs i det specifika fallet. </p>
+    </div>
+
+    Allmänna referenser för alla punkter: Det material vi har haft tillgång till i kursen genom Canvas, pluralsight, youtube osv.
+  </body>
+</html>
